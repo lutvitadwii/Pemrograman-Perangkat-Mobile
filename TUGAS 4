@@ -1,0 +1,21 @@
+/*
+Nama : Lutvita Dwi Iklima
+NIM :20190040059
+Kelas : TI19B
+*/
+
+fungsi  terbalik ( param ) {
+	var  x  =  parameter . panjang ,  y  =  '' ;
+	sementara ( x  >  0 ) {
+		y  +=  param [ x  -  1 ] ;
+		x -- ;
+	}
+	kembali  y ;
+}
+var  kata  =  "katak" ;
+if ( kata  ===  terbalik ( kata ) ) {
+	konsol . log ( "Kata `" + kata + "`termasuk kata Palindrome." ) ;
+}
+lain {
+	konsol . log ( "Kata `" + word + "`termasuk bukan kata Palindrome." ) ;
+}
